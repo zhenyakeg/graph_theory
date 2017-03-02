@@ -1,44 +1,51 @@
-N = int(input())
-M = int(input())
-graph = [set() for i in range(N)]
-inv_graph = [set() for i in range(N)]
-full_graph = [set() for i in range(N)]
-for i in range (M):
-    a, b = tuple(map(int, input().split()))
-    graph[a].add(b)
-    inv_graph[b].add(a)
-    full_graph[a].add(b)
-    full_graph[b].add(a)
-
-def dfs(vertex, data,  used):
+from collections import defaultdict
+def dfs_forward(vertex, data,  used, vector):
     used.add(vertex)
-    for node in data[vertex]:
+    for node in data.get(vertex, []):
         if node not in used:
-            dfs(node, data, used)
-
-def kesaraiu(graph, inv_graph):
-    counter = []
-    i = 0
-    while i < len(graph):
-        stack = set()
-        inv_stack = set()
-        dfs(i, graph, stack)
-        dfs(i, inv_graph, inv_stack)
-        if (stack & inv_stack) not in counter:
-            counter.append(stack & inv_stack)
-        i += len(stack & inv_stack)
-    return len(counter)
-
+            dfs_forward(node, data, used, vector)
+    vector.append(vertex)
+def dfs_back(vertex, data,  used):
+    used.add(vertex)
+    for node in data.get(vertex, []):
+        if node not in used:
+            dfs_back(node, data, used)
 def weak_components(full_graph):
     counter = 0
     used = set()
-    for i in range(len(full_graph)):
+    for i in full_graph.keys():
         if i not in used:
-            dfs(i, full_graph, used)
+            dfs_back(i, full_graph, used)
             counter += 1
     return counter
+N = int(input())
+M = int(input())
+graph = defaultdict(list)
+inv_graph = defaultdict(list)
+full_graph = defaultdict(list)
 
-print(weak_components(full_graph), kesaraiu(graph,inv_graph))
+for i in range (M):
+    a, b = tuple(map(int, input().split()))
+    graph[a].append(b)
+    inv_graph[b].append(a)
+    full_graph[a].append(b)
+    full_graph[b].append(a)
+
+vector = list()
+used = set()
+counter = 0
+for node in graph:
+    if node not in used:
+        dfs_forward(node, graph, used, vector)
+used = set()
+for i in range(len(vector)):
+    vert = vector[len(vector) - 1 - i]
+    if vert not in used:
+        dfs_back(vert, inv_graph, used)
+        counter += 1
+
+print(weak_components(full_graph) + (N - len(full_graph)), counter + (N - len(vector)))
+#не забыть добавить те, через который не прошел
 
 '''11
 13
