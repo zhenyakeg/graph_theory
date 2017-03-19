@@ -31,7 +31,7 @@ def find_min_cycle(graph):
         for neighbbour in graph[vertex]:
             result = distances(graph, neighbbour)
             if vertex in result[1]:
-                curr_cycles.append((neighbbour,result[0][vertex], result[1][vertex]))
+                curr_cycles.append((neighbbour, result[0][vertex], result[1][vertex]))
             else:
                 curr_cycles.append((neighbbour, float('inf'), None))
         if len(curr_cycles) == 0:

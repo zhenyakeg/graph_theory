@@ -26,12 +26,12 @@ def grasshooper (row, start_sum):
     if len(row) < 3:
         return [1]
     else:
-        costs =[start_sum, float('-inf'), start_sum*row[2]] + [start_sum for i in range(len(row)-3)]
+        costs = [start_sum, float('-inf'), start_sum * row[2]] + [start_sum for i in range(len(row)-3)]
         for i in range(3, len(row)):
-            if costs[i-3] > costs[i-2]:
-                costs[i] = costs[i-3]*row[i]
+            if costs[i - 3] > costs[i - 2]:
+                costs[i] = costs[i-3] * row[i]
             elif costs[i - 3] < costs[i - 2]:
-                costs[i] = costs[i-2]*row[i]
+                costs[i] = costs[i-2] * row[i]
         finish = costs.index(max(costs))
         way = [finish]
         if finish in {0, 1}:

@@ -48,7 +48,6 @@ def count_way(graph, start, finish):
     Q = [get_num(start)]
     while Q:
         curr = Q.pop(0)
-
         for neighbour in graph[curr]:
             if neighbour not in used:
                 if neighbour == get_num(finish):
