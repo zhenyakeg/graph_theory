@@ -1,6 +1,6 @@
 class task:
 
-    task= '''Остовное дерево поиска в глубину. Реализация на Python 3.'''
+    task= '''Остовное дерево поиска в ширину. Реализация на Python 3.'''
 
 def read_graph_as_lists():
     N, M = tuple(map(int,input().split()))
