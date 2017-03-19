@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157a2db1-672a-44e9-a3bb-2d7f47a6e59f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KEA_Graph_Width/H.py" afterPath="$PROJECT_DIR$/KEA_Graph_Width/H.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" />
     </list>
     <ignored path="graphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,8 +117,8 @@
       <file leaf-file-name="06_dijkstra_shortest_path_with_representation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+            <state relative-caret-position="60">
+              <caret line="3" column="98" lean-forward="false" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -644,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489964107951</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5 Done">
+      <created>1489965722476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1489965722476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -923,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="52" lean-forward="true" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        <state relative-caret-position="60">
+          <caret line="3" column="98" lean-forward="false" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="98" />
           <folding />
         </state>
       </provider>
