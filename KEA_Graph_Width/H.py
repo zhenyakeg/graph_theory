@@ -20,7 +20,7 @@ for i in range(m):
     G[b][e] = c
     G[e][b] = c
 
-def dijkstra(G,start):
+def dijkstra(G, start):
     d = {v: float('inf') for v in G}
     ways = {v:[] for v in G}
     d[start] = 0
