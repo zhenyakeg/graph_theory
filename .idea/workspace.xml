@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="157a2db1-672a-44e9-a3bb-2d7f47a6e59f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/09_krascal_algorithm.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/09_krascal_algorithm.py" />
     </list>
     <ignored path="graphs.iws" />
@@ -37,41 +38,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="09_krascal_algorithm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/09_krascal_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="08_Prim's_algorithm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="127" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="127" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_topological_sort_tarjan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/10_topological_sort_tarjan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="40" column="28" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="topological_sort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topological_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_tree_dfs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/04_tree_dfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05_tree_bfs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_count_components_bfs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/03_count_components_bfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02_count_components_dfs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +112,6 @@
         <option value="$PROJECT_DIR$/strong_connectivity.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/03_count_components_bfs.py" />
         <option value="$PROJECT_DIR$/KEA_Graph_Width/H.py" />
-        <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/04_tree_dfs.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" />
@@ -109,6 +119,7 @@
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/10_topological_sort_tarjan.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/09_krascal_algorithm.py" />
+        <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py" />
       </list>
     </option>
   </component>
@@ -206,7 +217,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RunManager" selected="Python.10_topological_sort_tarjan">
     <configuration default="false" name="05_tree_bfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -653,14 +664,21 @@
       <option name="project" value="LOCAL" />
       <updated>1490009612195</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="5 Done">
+      <created>1490010015456</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1490010015456</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5212082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5212082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25168237" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -942,42 +960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/03_count_components_bfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KEA_Graph_Width/B.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="97" lean-forward="false" selection-start-line="2" selection-start-column="97" selection-end-line="2" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/04_tree_dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1014,14 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topological_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Is_acyclic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -1041,15 +1019,55 @@
     <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="127" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="127" />
+          <caret line="2" column="127" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="127" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/09_krascal_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topological_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/04_tree_dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="75" lean-forward="false" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/03_count_components_bfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
