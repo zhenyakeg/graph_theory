@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157a2db1-672a-44e9-a3bb-2d7f47a6e59f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/07_Floyd_Warshall.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/04_tree_dfs.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/04_tree_dfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" afterPath="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" />
     </list>
     <ignored path="graphs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_Floyd_Warshall.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="07_Floyd_Warshall.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/07_Floyd_Warshall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="160">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08_Prim's_algorithm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prim_algorithm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prim_algorithm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -61,8 +77,8 @@
       <file leaf-file-name="01_matrix_graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/01_matrix_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="53" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="53" />
+            <state relative-caret-position="80">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -137,6 +153,7 @@
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/05_tree_bfs.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/06_dijkstra_shortest_path_with_representation.py" />
         <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/07_Floyd_Warshall.py" />
+        <option value="$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py" />
       </list>
     </option>
   </component>
@@ -632,14 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1489966014520</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="5 Done">
+      <created>1490001160739</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490001160739</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5212082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5212082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25168237" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -866,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Prim_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KEA_Graph_Width/C_stupid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -944,14 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/01_matrix_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="53" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/02_count_components_dfs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -986,8 +995,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/07_Floyd_Warshall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="160">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/01_matrix_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prim_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph_Theory_SemiFinal_Preparartion/08_Prim's_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
