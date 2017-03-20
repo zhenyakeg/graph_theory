@@ -26,8 +26,8 @@ def dfs_with_stack(graph, start, path, stack=None, used=None):
             sys.exit(0)
         if neighbour not in used:
             dfs_with_stack(graph, neighbour, path, stack, used)
-        path.append(start)
-        stack.remove(start)
+    stack.remove(start)
+    path.append(start)
 
 
 def tarjan_topological_sort(graph):
@@ -38,4 +38,5 @@ def tarjan_topological_sort(graph):
         if node not in used:
             dfs_with_stack(graph, node, sorted_graph, stack, used)
 
-    return sorted_graph
+    return sorted_graph[::-1]
+print(*tarjan_topological_sort(read_graph_as_lists()))
