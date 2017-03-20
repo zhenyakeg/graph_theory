@@ -1,3 +1,6 @@
+class task:
+
+    task= '''Нахождение остовного дерева минимального веса. Алгоритм Краскала. Реализация на Python 3.'''
 def read_as_edges_list():
     N, M = tuple(map(int, input().split()))
     edges = []
