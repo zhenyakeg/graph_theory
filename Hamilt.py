@@ -4,16 +4,18 @@ for j in range(M):
     a, b= tuple(map(int, input().split()))
     G[a].append(b)
     G[b].append(a)
+
 visited = [False] * N
-path = []
+way = []
+
 def hamilton(curr):
-    global path, visited, G
-    path.append(curr)
-    if len(path) == N:
-        if path[0] in G[path[-1]]:
+    global way, visited, G
+    way.append(curr)
+    if len(way) == N:
+        if way[0] in G[way[-1]]:
             return True
         else:
-            path.pop()
+            way.pop()
             return False
     visited[curr] = True
     for next in range(N):
@@ -21,8 +23,9 @@ def hamilton(curr):
             if hamilton(next):
                 return True
     visited[curr] = False
-    path.pop()
+    way.pop()
     return False
+
 hamilton(0)
 
-print(*path)
+print(*way)

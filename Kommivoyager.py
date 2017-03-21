@@ -8,10 +8,10 @@ for j in range(M):
     wm[a][b] = c
     wm[b][a] = c
 visited = [False] * N
-path = []
+way = []
 paths = []
 def all_hamilton(curr):
-    global path, visited, G, paths, wm
+    global way, visited, G, paths, wm
     path.append(curr)
     visited[curr] = True
     if len(path) == N:
@@ -26,13 +26,13 @@ def all_hamilton(curr):
 all_hamilton(0)
 res_cost = float('inf')
 res_path = []
-for path in paths:
+for way in paths:
     curr_cost = 0
     for i in range(N):
-        curr_cost += wm[path[i-1]][path[i]]
+        curr_cost += wm[way[i - 1]][way[i]]
     if curr_cost < res_cost:
         res_cost = curr_cost
-        res_path = path
+        res_path = way
 print(res_cost)
 print(*res_path)
 

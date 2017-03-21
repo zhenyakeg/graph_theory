@@ -19,6 +19,7 @@ def dfs(graph, start, path, used = None):
         if vertex not in used:
             path.append((start, vertex))
             dfs(graph, vertex, path, used)
+
 def build_tree(graph):
     tree = []
     used = set()
