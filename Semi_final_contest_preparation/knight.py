@@ -1,5 +1,5 @@
 def rename_straight(point):
-    alphabet =[]
+    alphabet = []
     for letter in 'abcdefgh':
         alphabet.append(letter)
     nums = list(range(1, 9))
@@ -8,7 +8,7 @@ def rename_straight(point):
 def rename_back(point):
     alphabet = []
     for letter in 'abcdefgh':
-        alphabet.append(letter)
+        alphabet. append(letter)
     nums = list(range(1, 9))
     renaming_dict = dict(zip(nums, alphabet))
     return renaming_dict[point[0]] + str(point[1])
