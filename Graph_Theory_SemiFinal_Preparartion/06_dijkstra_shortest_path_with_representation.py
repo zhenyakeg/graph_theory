@@ -1,16 +1,21 @@
-class task:
+import heapq
+
+class Task:
+
 
     task= '''Алгоритм Дейкстры с восстановлением кратчайшего пути. Реализация на Python 3. Реализация для связного графа.
     Иначе просто пробегаем по компоненте связности, которую можно получить при помощи dfs или bfs. O(N^3)'''
 
-def read_graph_as_dict():
-    N, M = tuple(map(int,input().split()))
-    graph = {i:{ } for i in range(N)}
+def read_graph_as_lists():
+    N, M = tuple(map(int, input().split()))
+    graph = [[] for i in range(N)]
     for edge in range(M):
         a, b, c = tuple(map(int, input().split()))
-        graph[a][b] = c
-        graph[b][a] = c
+        graph[a].append((b, c))
+        graph[b].append((a, c))
     return graph
+
+
 def dijkstra(graph, start, finish):
     distances = {v: float('inf') for v in graph}
     ways = {v: [] for v in graph}
@@ -31,5 +36,23 @@ def dijkstra(graph, start, finish):
                 ways[neighbour] = ways[current_node] + [neighbour]
         used.add(current_node)
     return distances[finish], ways[finish]
+
+
+def dijkstra_heap(graph, start, finish):
+    distances = [float('inf')] * len(graph)
+    queue= []
+    heapq.heappush(queue, (0, start))
+    while queue:
+        min_d, current_node = heapq.heappop(queue)
+        if min_d > distances[current_node]:
+            continue
+        distances[current_node] = min_d
+        for neighbour, cost in graph[current_node]:
+            l = min_d + cost
+            if l < distances[neighbour]:
+                heapq.heappush(queue, (l, neighbour))
+    return distances[finish]
+
+
 start, finish = tuple(map(int, input().split()))
-print(dijkstra(read_graph_as_dict(), start, finish))
+print(dijkstra_heap(read_graph_as_lists(), start, finish))

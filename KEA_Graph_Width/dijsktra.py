@@ -1,3 +1,4 @@
+import heapq
 class inser_text:
     pass
     """
